@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: rgb(39, 1, 51);
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  }
+
+header {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+footer {
+  font-size: 20px;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  margin: 0 20px;
+}
